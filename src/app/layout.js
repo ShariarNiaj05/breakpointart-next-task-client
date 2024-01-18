@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body >
         {/* <QueryClientProvider client={client}> */}
-          <Navbar></Navbar>
+          {/* <Navbar></Navbar> */}
           {children}
         {/* </QueryClientProvider> */}
 

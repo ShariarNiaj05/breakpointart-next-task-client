@@ -1,9 +1,13 @@
-import React from 'react';
+import AllRecipe from '@/components/AllRecipeComponents/AllRecipe';
+import AllRecipeBanner from '@/components/AllRecipeComponents/AllRecipeBanner';
 
-const AllRecipePage = () => {
+const AllRecipePage = async () => {
+   
     return (
         <div>
-            All recipe
+            <AllRecipeBanner></AllRecipeBanner>
+            {/* <AllRecipe></AllRecipe> */}
+        
         </div>
     );
 };

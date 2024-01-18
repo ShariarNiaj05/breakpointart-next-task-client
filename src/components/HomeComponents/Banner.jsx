@@ -21,6 +21,18 @@ const Banner = () => {
               See All
             </button>
           </Link>
+
+          <div className="flex mt-5 gap-5 justify-center bg-sky-600 p-3 rounded">
+            <Link href={"/"} className={""}>
+              Home
+            </Link>
+            <Link href={"/all-recipe"} className={""}>
+              All Recipe
+            </Link>
+            <Link href={"/add-recipe"} className={""}>
+              Add Recipe
+            </Link>
+          </div>
         </div>
       </div>
     </div>
